@@ -21,8 +21,8 @@ const CustomForm = ({ thing, handleInput, handleSubmit }) => {
           value={thing}
           onInput={handleInput}
         />
-        <button className='bg-inherit rounded-md font-sans text-slate-800 py-2 px-6 focus:outline-none focus:text-teal-600 hover:text-teal-600 cursor-pointer'>
-          <ArrowRightCircleIcon className='h-12 w-12' />
+        <button className='bg-inherit rounded-md font-sans text-slate-800 py-2 px-6 focus:outline-none focus:text-teal-600 hover:text-teal-600 cursor-pointer '>
+          <ArrowRightCircleIcon className='pointer-events-none h-12 w-12' />
         </button>
       </form>
     </>
